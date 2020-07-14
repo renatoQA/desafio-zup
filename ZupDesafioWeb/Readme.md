@@ -1,18 +1,23 @@
-# AutomaÁ„o Web ZUP Desafio  
-- Utilizado o site do submarino para realizar um teste de ponta a ponta de busca e seleÁ„o de produto atÈ o carrinho de compras 
-- Ao final do teste È validado se o produto que foi para o carrinho È o mesmo que esperavamos  
-- Utilizado um try catch para tratar a exceÁ„o de erro  
-- Projeto utilizando o padr„o PageObjects
+# Automa√ß√£o Web ZUP Desafio  
+- Utilizado o site do submarino para realizar um teste de ponta a ponta de busca e sele√ß√£o de produto at√© o carrinho de compras 
+- Ao final do teste √© validado se o produto que foi para o carrinho √© o mesmo que esperavamos  
+- Utilizado um try catch para tratar a exce√ß√£o de erro  
+- Projeto utilizando o padr√£o PageObjects
 - Foi utilizando um Data Driven JSON para massa de dados utilizada no teste.
   
-Modo de execuÁ„o do teste :
+Modo de execu√ß√£o do teste :
  
 Com o Docker na maquina;
 
 Abrir o Windows Powershell(para windows) ou o prompt do linux na pasta do projeto;
+
 Executar o comando : 'docker-compose -f docker-compose.yml up';  
+
 Em um novo PowerShell ou Prompt execute:  'docker-compose scale chrome=5';
-ApÛs isso bassa acessar o projeto por uma IDE (Eclipse,Netbeans ou IntelliJ);
+
+Ap√≥s isso bassa acessar o projeto por uma IDE (Eclipse,Netbeans ou IntelliJ);
+
 Acessar o caminho src/cases/TestCase01.java e executar como JUnit Test;
-Feito execuÁ„o È gerar um relatorio de teste utilizando o framework extentreports na pasta Reports;
+
+Feito execu√ß√£o √© gerar um relatorio de teste utilizando o framework extentreports na pasta Reports;
 
