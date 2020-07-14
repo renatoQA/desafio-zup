@@ -10,9 +10,14 @@ Modo de execução do teste :
 Com o Docker na maquina;
 
 Abrir o Windows Powershell(para windows) ou o prompt do linux na pasta do projeto;
+
 Executar o comando : 'docker-compose -f docker-compose.yml up';  
+
 Em um novo PowerShell ou Prompt execute:  'docker-compose scale chrome=5';
+
 Após isso bassa acessar o projeto por uma IDE (Eclipse,Netbeans ou IntelliJ);
+
 Acessar o caminho src/cases/TestCase01.java e executar como JUnit Test;
+
 Feito execução é gerar um relatorio de teste utilizando o framework extentreports na pasta Reports;
 
