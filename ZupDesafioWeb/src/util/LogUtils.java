@@ -8,7 +8,7 @@ public abstract class LogUtils {
 
 	private static ExtentTest uniqueInstance;
 	private final static String REPORT_PATH = "\\Reports\\extentReportFile.html";
-	private final static String TITLE = "Challenge2020";
+	private final static String TITLE = "DesafioZup";
 	static ExtentReports extent;
 	static ExtentTest extentTest;
 	static String extentReportFile;
